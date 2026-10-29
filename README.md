@@ -24,3 +24,7 @@ La conversión lee `assets/source.skp` y vuelve a escribir `public/model.glb`. S
 ```bash
 npm run build
 ```
+
+## Publicar en GitHub Pages
+
+En el repositorio, abre **Settings → Pages** y selecciona **GitHub Actions** como origen. Después, en **Actions → Deploy site to GitHub Pages**, pulsa **Run workflow** sobre la rama `main`. El sitio quedará en `https://pillars003-dev.github.io/3D-ESQUEMA-OBRA-PIA-COLORES/` cuando termine el despliegue.

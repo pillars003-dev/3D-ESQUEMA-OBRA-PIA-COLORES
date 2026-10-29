@@ -249,7 +249,7 @@ fileInput.addEventListener('change', () => {
 
 try {
   initViewer();
-  loadModel('/model.glb', 'Obra Pía');
+  loadModel(`${import.meta.env.BASE_URL}model.glb`, 'Obra Pía');
 } catch (error) {
   showOverlay('No se pudo abrir el visor 3D', 'Tu navegador necesita tener WebGL activado.');
   statusText.textContent = 'WebGL no disponible';
